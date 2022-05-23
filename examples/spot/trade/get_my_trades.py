@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+
+import logging
+
+from degate.spot import Spot as Client
+from degate.lib.utils import config_logging
+
+config_logging(logging, logging.DEBUG)
+
+AccountAddress = "0xba2b5feae299808b119fd410370d388b2fbf744b"
+AppPrivateKey = ""
+AccountId = 2475
+ETH = {
+    "id": 0,
+    "symbol": "ETH",
+}
+USDC = {
+    "id": 8,
+    "symbol": "USDC",
+}
+
+client = Client(AccountAddress, AppPrivateKey, AccountId,tokens=[ETH,USDC])
+
+try:
+    logging.info(client.my_trades("ETHUSDC", limit=20))
+except Exception as e:
+    logging.error(e)
+
+# set startTime and endTime
+try:
+    logging.info(client.my_trades("ETHUSDC", limit=20, startTime=0, endTime=1652863041))
+except Exception as e:
+    logging.error(e)
