@@ -7,7 +7,7 @@ from degate.lib.utils import config_logging
 config_logging(logging, logging.DEBUG)
 
 AccountAddress = "0xba2b5feae299808b119fd410370d388b2fbf744b"
-AppPrivateKey = "2632894725898118267240653043394494434953414364053947631502368954038496915496"
+AppPrivateKey = ""
 AccountId = 2475
 
 client = Client(AccountAddress, AppPrivateKey, AccountId)
