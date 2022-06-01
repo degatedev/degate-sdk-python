@@ -30,17 +30,7 @@ my_client.partial_book_depth(
     callback=message_handler,
 )
 
-# time.sleep(2)
-#
-# my_client.partial_book_depth(
-#     symbol="btcusdt",
-#     level=10,
-#     speed=100,
-#     id=2,
-#     callback=message_handler,
-# )
-
-time.sleep(3)
+time.sleep(30000)
 logging.debug("closing ws connection")
 my_client.stop()
 logging.debug("finish")
