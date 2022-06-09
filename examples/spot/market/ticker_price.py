@@ -14,11 +14,15 @@ USDC = {
     "id": 8,
     "symbol": "USDC",
 }
+USDT = {
+    "id": 9,
+    "symbol": "USDT",
+}
 
-spot_client = Client(tokens=[ETH,USDC])
+spot_client = Client(tokens=[ETH,USDC,USDT])
 
 try:
-    logging.info(spot_client.ticker_price("ETHUSDC"))
+    logging.info(spot_client.ticker_price("ETHUSDC,ETHUSDT"))
 except Exception as e:
     logging.error(e)
 

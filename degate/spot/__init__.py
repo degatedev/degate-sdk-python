@@ -41,4 +41,5 @@ class Spot(API):
     from degate.spot.wallet import transfer
     from degate.spot.wallet import transfer_history
     from degate.spot.wallet import trade_fee
+    from degate.spot.wallet import gas_fee
     from degate.spot.wallet import funding_wallet

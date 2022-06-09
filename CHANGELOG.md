@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.6 - 2022-06-09
+### Added
+- GasFee
+
+## 1.0.5 - 2022-06-02
+### Fixed
+- limit default value
+
 ## 1.0.4 - 2022-06-01
 ### Fixed
 - SubscribeTicker

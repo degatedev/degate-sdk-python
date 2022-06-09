@@ -33,6 +33,9 @@ def trade_fee(self, symbol: str, **kwargs):
     payload = {"symbol": symbol, **kwargs}
     return self.callDeGate("tradeFee", payload)
 
+def gas_fee(self, **kwargs):
+    return self.callDeGate("gasFee", kwargs)
+
 
 def funding_wallet(self,asset=None, **kwargs):
     payload = {"asset": asset, **kwargs}
