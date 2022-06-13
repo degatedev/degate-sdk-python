@@ -16,6 +16,7 @@ class API(object):
         tokens=None,
         timeout=None,
         debug=False,
+        show_header=False,
     ):
         self.accountAddress = accountAddress
         self.appPrivateKey = appPrivateKey
@@ -25,6 +26,7 @@ class API(object):
         self.base_url = base_url
         if type(tokens) is list:
             self.tokens = tokens
+        self.show_header = show_header
 
         config = {
             "BaseUrl": self.base_url,
@@ -34,6 +36,7 @@ class API(object):
             "Timeout": self.timeout,
             "Tokens": self.tokens,
             "Debug": debug,
+            "ShowHeader":show_header,
         }
         self.AppConfig = json.dumps(config).encode("utf-8")
         self._logger = logging.getLogger(__name__)
@@ -49,7 +52,14 @@ class API(object):
             response = response.decode("utf-8")
             self.handleException(response)
             response = json.loads(response)
-            return response.get("data", None)
+            data = response.get("data", None)
+            result = {}
+            if self.show_header:
+                result["header"] = response.get("header",None)
+            if len(result) != 0:
+                result["data"] = data
+                return result
+            return data
 
     def handleException(self, response_text):
         try:
