@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 1.0.8 - 2022-06-15
+### Added
+- add get_history_orders, remove get_orders
+
+
 ## 1.0.7 - 2022-06-13
 ### Added
 - response add header

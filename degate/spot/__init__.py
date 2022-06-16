@@ -25,7 +25,7 @@ class Spot(API):
     from degate.spot.account import cancel_open_orders
     from degate.spot.account import get_order
     from degate.spot.account import get_open_orders
-    from degate.spot.account import get_orders
+    from degate.spot.account import get_history_orders
     from degate.spot.account import account
     from degate.spot.account import my_trades
 

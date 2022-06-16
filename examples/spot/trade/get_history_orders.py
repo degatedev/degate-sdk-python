@@ -21,7 +21,7 @@ USDC = {
 client = Client(AccountAddress, AppPrivateKey, AccountId,tokens=[ETH,USDC])
 
 try:
-    response = client.get_orders("ETHUSDC",limit=20)
+    response = client.get_history_orders("ETHUSDC",limit=20)
     logging.info(response)
 except Exception as e:
     logging.error(e)

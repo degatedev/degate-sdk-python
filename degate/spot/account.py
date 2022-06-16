@@ -29,10 +29,10 @@ def get_open_orders(self, symbol=None, **kwargs):
     payload = {"symbol": symbol, **kwargs}
     return self.callDeGate("openOrders", payload)
 
-def get_orders(self, symbol: str, **kwargs):
+def get_history_orders(self, symbol: str, **kwargs):
     check_required_parameter(symbol, "symbol")
     payload = {"symbol": symbol, **kwargs}
-    return self.callDeGate("orders", payload)
+    return self.callDeGate("historyOrders", payload)
 
 def account(self):
     return self.callDeGate("account")
