@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 1.1.0 - 2022-06-30
+## Added
+- exchange_info add rateLimits
+
+
 ## 1.0.8 - 2022-06-15
 ### Added
 - add get_history_orders, remove get_orders
