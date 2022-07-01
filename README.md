@@ -42,7 +42,7 @@ print(client.klines("ETHUSDC", "1m"))
 # Get last 10 klines of ETHUSDC at 1h interval
 print(client.klines("ETHUSDC", "1h", limit=10))
 
-# api key/secret are required for user data endpoints
+# accountAddress、accountPrivateKey、accountId are required for user data endpoints
 client = Client(accountAddress='<account_address>',appPrivateKey='<account_private_key>',accountId='<account_id>',tokens=[ETH,USDC])
 # Get account and balance information
 print(client.account())
