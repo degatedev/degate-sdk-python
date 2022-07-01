@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 1.2.1 - 2022-07-01
+## Added
+- add setup.py
+
+
 ## 1.1.0 - 2022-06-30
 ## Added
 - exchange_info add rateLimits
