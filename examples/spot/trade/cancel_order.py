@@ -8,13 +8,13 @@ from degate.error import ClientError
 config_logging(logging, logging.DEBUG)
 
 AccountAddress = "0xba2b5feae299808b119fd410370d388b2fbf744b"
-AppPrivateKey = ""
+TradingKey = ""
 AccountId = 2475
 
-client = Client(AccountAddress, AppPrivateKey, AccountId)
+client = Client(AccountAddress, TradingKey, AccountId)
 
 try:
-    response = client.cancel_order(orderId="196120192698583504448505788760278")
+    response = client.cancel_order(orderId="196120259006272074368953421398253")
     logging.info(response)
 except Exception as e:
     logging.error(e)

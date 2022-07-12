@@ -10,7 +10,7 @@ class API(object):
     def __init__(
         self,
         accountAddress=None,
-        appPrivateKey=None,
+        tradingKey=None,
         accountId=None,
         base_url=None,
         tokens=None,
@@ -19,7 +19,7 @@ class API(object):
         show_header=False,
     ):
         self.accountAddress = accountAddress
-        self.appPrivateKey = appPrivateKey
+        self.tradingKey = tradingKey
         self.accountId = accountId
         self.tokens = None
         self.timeout = timeout
@@ -31,7 +31,7 @@ class API(object):
         config = {
             "BaseUrl": self.base_url,
             "AccountAddress": accountAddress,
-            "AppPrivateKey": appPrivateKey,
+            "TradingKey": tradingKey,
             "AccountId": accountId,
             "Timeout": self.timeout,
             "Tokens": self.tokens,

@@ -2,8 +2,8 @@ from degate.api import API
 
 
 class Spot(API):
-    def __init__(self, accountAddress=None, appPrivateKey=None, accountId=None, **kwargs):
-        super().__init__(accountAddress, appPrivateKey, accountId, **kwargs)
+    def __init__(self, accountAddress=None, tradingKey=None, accountId=None, **kwargs):
+        super().__init__(accountAddress, tradingKey, accountId, **kwargs)
 
     # MARKETS
     from degate.spot.market import ping

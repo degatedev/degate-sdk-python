@@ -1,6 +1,11 @@
 # Changelog
 
 
+## 1.2.2 - 2022-07-12
+### Updated
+- AppPrivateKey changed to TradingKey
+
+
 ## 1.2.1 - 2022-07-01
 ## Added
 - add setup.py

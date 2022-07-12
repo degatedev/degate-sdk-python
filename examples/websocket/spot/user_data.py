@@ -15,10 +15,10 @@ def message_handler(message):
         print(message.decode("utf-8"))
 
 AccountAddress = "0xba2b5feae299808b119fd410370d388b2fbf744b"
-AppPrivateKey = ""
+TradingKey = ""
 AccountId = 2475
 
-client = Client(AccountAddress, AppPrivateKey, AccountId)
+client = Client(AccountAddress, TradingKey, AccountId)
 
 try:
     response = client.new_listen_key()
