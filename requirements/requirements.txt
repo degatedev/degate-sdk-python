@@ -1,0 +1,2 @@
+autobahn==21.2.1
+Twisted==21.2.0
