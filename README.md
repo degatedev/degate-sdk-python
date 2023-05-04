@@ -3,7 +3,7 @@
 [![Python 3.6](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is a lightweight library that works as a connector to [DeGate public SDK](https://api-docs.degate.com/cn/spot)
+This is a lightweight library that works as a connector to [DeGate public SDK](https://api-docs.degate.com/spot)
 
 - Supported APIs:
     - Spot
@@ -141,5 +141,5 @@ More websocket examples are available in the `examples` folder
 ```python
 from degate.websocket.spot.websocket_client import SpotWebsocketClient as WsClient
 
-wsClient = WsClient(websocketBaseUrl='wss://testnet-goerli-ws.degate.com')
+wsClient = WsClient(websocketBaseUrl='wss://testnet-ws.degate.com')
 ```

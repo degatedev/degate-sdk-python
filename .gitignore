@@ -4,3 +4,7 @@ degate/__pycache__/api.cpython-38.pyc
 degate/__pycache__/api.cpython-39.pyc
 degate/__pycache__/error.cpython-38.pyc
 degate/__pycache__/error.cpython-39.pyc
+degate/lib/__pycache__/
+degate/spot/__pycache__/
+degate/websocket/__pycache__/
+degate/websocket/spot/__pycache__/

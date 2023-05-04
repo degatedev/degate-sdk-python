@@ -13,7 +13,7 @@ ETH = {
     "symbol": "ETH",
 }
 USDC = {
-    "id": 8,
+    "id": 2,
     "symbol": "USDC",
 }
 

@@ -1,28 +1,39 @@
 # Changelog
 
+## 1.5.7 - 2023-05-04
+### Updated
+- update mainnet base endpoint
+- update sdk docs link
+
+
+## 1.5.6 - 2023-04-20
+### Fixed
+- fix bugs
+
+
 ## 1.5.5 - 2023-04-04
-## Fixed
+### Fixed
 - Fixed limit order
 
 
 ## 1.5.3 - 2023-02-21
-## Updated
+### Updated
 - Update User Data Streams
 - Update balanceUpdate Streams
 
 
 ## 1.5.1 - 2023-02-09
-## Updated
+### Updated
 - Update order sign
 
 
 ## 1.5.0 - 2023-01-18
-## Updated
+### Updated
 - Ticker24,TickerPrice response add pairId
 
 
 ## 1.4.9 - 2023-01-17
-## Fixed
+### Fixed
 - Fixed new market order failed
 
 
@@ -67,12 +78,12 @@
 
 
 ## 1.2.1 - 2022-07-01
-## Added
+### Added
 - add setup.py
 
 
 ## 1.1.0 - 2022-06-30
-## Added
+### Added
 - exchange_info add rateLimits
 
 
@@ -94,6 +105,7 @@
 ## 1.0.5 - 2022-06-02
 ### Fixed
 - limit default value
+
 
 ## 1.0.4 - 2022-06-01
 ### Fixed
