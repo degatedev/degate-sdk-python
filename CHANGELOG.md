@@ -1,5 +1,11 @@
 # Changelog
 
+
+## 1.5.8 - 2023-07-05
+### Fixed
+- fix place order gas fee
+
+
 ## 1.5.7 - 2023-05-04
 ### Updated
 - update mainnet base endpoint
