@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.0 - 2023-09-22
+### Updated 
+- Replace signature with access-token 
+
 ## 1.5.9 - 2023-07-12
 ### Updated 
 - Replace minOrderPrice with minLimitOrderUSDValue in exchange info
