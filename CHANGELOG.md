@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.1 - 2023-11-17
+### Updated 
+- Imporve stardard withdrawal
+- RoundCeil for sell price, roundFloor for buy price 
+
 ## 1.6.0 - 2023-09-22
 ### Updated 
 - Replace signature with access-token 
