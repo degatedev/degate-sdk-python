@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.2 - 2024-03-15
+### Updated 
+- Fix precision of quantity in newOrder response
+
 ## 1.6.1 - 2023-11-17
 ### Updated 
 - Imporve stardard withdrawal
