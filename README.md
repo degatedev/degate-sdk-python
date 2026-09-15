@@ -1,3 +1,5 @@
+⚠️ Historical repository. These are the smart contracts of DeGate's zkRollup orderbook DEX, which was sunset in 2025 and is no longer in operation. DeGate is now a self-custodial multichain crypto wallet: degate.com.
+
 # DeGate Public SDK Connector Python
 [![PyPI version](https://img.shields.io/pypi/v/degate-connector)](https://pypi.python.org/pypi/degate-connector)
 [![Python 3.6](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
